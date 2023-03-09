@@ -1,2 +1,2 @@
-star1 #!/bin/bash 
-Star2 pwd
+#!/bin/bash 
+ pwd
