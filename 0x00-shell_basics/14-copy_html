@@ -1,0 +1,7 @@
+#!/bin/bash
+cp -un *.html ../
+
+chmod u+x *
+
+
+chmod u-x README.md
