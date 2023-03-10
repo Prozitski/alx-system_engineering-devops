@@ -1,12 +1,2 @@
-!/bin/bash
-
-# Get the current working directory and its parent directory
-current_dir=$(pwd)
-parent_dir=$(dirname "$current_dir")
-
-# Copy all HTML files that are newer or don't exist in the parent directory
-for file in *.html; do
-  cp -u "$file" "$parent_dir"/"$file"
-done
-
-echo "Copied all HTML files to $parent_dir"/
+#!/bin/bash
+cp -u *.html ..
